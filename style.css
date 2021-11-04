@@ -33,8 +33,14 @@ nav{
     font-weight: bolder;
     font-size: 1.2em;
     width: 100vw;
-    position: absolute;
     z-index: 10;
+    
+}
+
+nav.stuck{
+    position: fixed;
+    top: 0%;
+    overflow: hidden;
 }
 
 div {
